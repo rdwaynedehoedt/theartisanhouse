@@ -30,7 +30,7 @@ const EXPERIENCES = [
     title: "Creative Memories",
     description:
       "Celebrate birthdays, bridal showers, anniversaries and meaningful milestones with beautifully curated creative experiences.",
-    image: "/hero-image.png",
+    image: "/ChatGPT Image Jul 26, 2026, 05_17_26 PM.png",
     reverse: true,
   },
 ];
