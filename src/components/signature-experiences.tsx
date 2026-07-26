@@ -9,14 +9,14 @@ const EXPERIENCES = [
     title: "Sip & Paint",
     description:
       "Relax, paint and enjoy meaningful conversations in a calm and inspiring environment.",
-    image: "/hero-image.png",
+    image: "/Sip & Paint.png",
     reverse: false,
   },
   {
     title: "Creative Wellness",
     description:
       "Slow down through mindful creative sessions designed to restore focus, reduce stress and encourage self-expression.",
-    image: "/hero-image.png",
+    image: "/Creative Wellness.png",
     reverse: true,
   },
   {
@@ -114,13 +114,11 @@ export function SignatureExperiences() {
                   transition={{ duration: 1, ease: "easeOut" }}
                   className="w-full lg:w-[55%] flex justify-center lg:justify-start group"
                 >
-                  <div className="relative w-full max-w-[540px] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-[0_20px_50px_-12px_rgba(0,0,0,0.08)] bg-[#f5f2eb]">
-                    <NextImage
+                  <div className="relative w-full max-w-[540px] rounded-[2rem] overflow-hidden shadow-[0_20px_50px_-12px_rgba(0,0,0,0.08)] bg-[#f5f2eb]">
+                    <img
                       src={exp.image}
                       alt={exp.title}
-                      fill
-                      unoptimized
-                      className="object-cover transform group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
+                      className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-[1.5s] ease-out"
                     />
                   </div>
                 </motion.div>
