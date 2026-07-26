@@ -6,11 +6,11 @@ import NextImage from "next/image";
 import { motion, useScroll, useMotionValueEvent } from "motion/react";
 
 const NAV_LINKS = [
-  { name: "ABOUT", href: "#" },
-  { name: "EXPERIENCES", href: "#" },
-  { name: "EVENTS", href: "#" },
-  { name: "GALLERY", href: "#" },
-  { name: "CONTACT", href: "#" },
+  { name: "ABOUT", href: "/about" },
+  { name: "EXPERIENCES", href: "/experiences" },
+  { name: "EVENTS", href: "/events" },
+  { name: "GALLERY", href: "/gallery" },
+  { name: "CONTACT", href: "/contact" },
 ];
 
 export function Navbar() {

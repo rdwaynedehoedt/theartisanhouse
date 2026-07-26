@@ -17,11 +17,11 @@ export function Footer() {
 
         {/* Links */}
         <div className="flex flex-wrap justify-center gap-x-10 gap-y-6 mb-20 text-[12px] font-medium tracking-[0.05em] uppercase text-foreground/70">
-          <Link href="#" className="hover:text-terracotta transition-colors">About</Link>
-          <Link href="#" className="hover:text-terracotta transition-colors">Experiences</Link>
-          <Link href="#" className="hover:text-terracotta transition-colors">Events</Link>
-          <Link href="#" className="hover:text-terracotta transition-colors">Gallery</Link>
-          <Link href="#" className="hover:text-terracotta transition-colors">Contact</Link>
+          <Link href="/about" className="hover:text-terracotta transition-colors">About</Link>
+          <Link href="/experiences" className="hover:text-terracotta transition-colors">Experiences</Link>
+          <Link href="/events" className="hover:text-terracotta transition-colors">Events</Link>
+          <Link href="/gallery" className="hover:text-terracotta transition-colors">Gallery</Link>
+          <Link href="/contact" className="hover:text-terracotta transition-colors">Contact</Link>
           <Link href="#" className="hover:text-terracotta transition-colors">Book an Experience</Link>
           <a 
             href="https://www.instagram.com/theartisanhouseofficial/" 
