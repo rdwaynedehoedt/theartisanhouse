@@ -11,43 +11,33 @@ export function Hero() {
       {/* Background radial wash behind image */}
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[60vw] h-[80vh] bg-[radial-gradient(ellipse_at_center,rgba(253,251,247,0.6)_0%,rgba(249,246,240,0)_70%)] pointer-events-none" />
 
-      <div className="max-w-[1400px] w-full mx-auto px-6 md:px-10 flex flex-col lg:flex-row items-center justify-between flex-1 z-10 relative pt-24 lg:pt-12">
+      <div className="max-w-[1400px] w-full mx-auto px-6 md:px-10 flex flex-col lg:flex-row items-center justify-between flex-1 z-10 relative pt-32 lg:pt-0">
         
         {/* Left Content (47%) */}
-        <div className="w-full lg:w-[47%] flex flex-col items-start justify-center pt-8 lg:pt-0 z-20">
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          >
-            <span className="text-terracotta text-[11px] font-semibold tracking-[0.2em] uppercase mb-3 block">
-              Welcome To
-            </span>
-          </motion.div>
-          
+        <div className="w-full lg:w-[47%] flex flex-col items-start justify-center pt-12 lg:pt-0 z-20">
           <motion.h1
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-            className="font-serif text-[clamp(3.5rem,7vw,5.75rem)] text-foreground leading-[0.95] tracking-[-0.02em] mb-6 whitespace-normal lg:whitespace-nowrap"
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+            className="font-serif text-[clamp(3.5rem,7vw,5.75rem)] text-foreground leading-[1.0] tracking-[-0.02em] mb-10 whitespace-normal"
           >
-            The Artisan House
+            Create. Connect. <br className="hidden md:block" />
+            Celebrate.
           </motion.h1>
           
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-            className="text-base md:text-lg text-foreground/75 font-light max-w-[480px] leading-[1.7] mb-8"
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+            className="text-base md:text-lg text-foreground/75 font-light max-w-[420px] leading-[1.85] mb-14"
           >
-            A creative home for art, wellness, <br className="hidden md:block" />
-            community and memories.
+            Slow down, create something beautiful, and share meaningful moments through thoughtfully curated experiences.
           </motion.p>
           
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut", delay: 0.5 }}
+            transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
           >
             <Link
               href="#"

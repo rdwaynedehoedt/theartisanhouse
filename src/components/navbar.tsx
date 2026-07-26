@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import NextImage from "next/image";
 import { motion } from "motion/react";
 
 const NAV_LINKS = [
@@ -23,27 +24,15 @@ export function Navbar() {
         
         {/* Logo Area - Left side */}
         <div className="flex-1 flex justify-start">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-10 h-10 rounded-full border border-terracotta/30 flex items-center justify-center text-terracotta">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                className="w-5 h-5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
-                />
-              </svg>
-            </div>
-            <div className="flex flex-col text-[10px] tracking-[0.25em] font-medium text-foreground leading-[1.2] uppercase">
-              <span>THE</span>
-              <span>ARTISAN</span>
-              <span>HOUSE</span>
-            </div>
+          <Link href="/" className="flex items-center group">
+            <NextImage
+              src="/logo.png"
+              alt="The Artisan House"
+              width={180}
+              height={60}
+              priority
+              className="h-10 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+            />
           </Link>
         </div>
 
