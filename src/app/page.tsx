@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
+import { ExperiencesIntro } from "@/components/experiences-intro";
 
 export default function Home() {
   return (
@@ -7,11 +8,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       
-      {/* The rest of the page would go here, continuing below the wave */}
-      {/* For now we just add a placeholder section below to show the wave effect properly */}
-      <section className="bg-secondary min-h-[50vh]">
-        {/* Next section content goes here */}
-      </section>
+      {/* Seamless transition into Experiences Intro */}
+      <ExperiencesIntro />
     </main>
   );
 }
