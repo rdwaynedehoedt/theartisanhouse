@@ -16,7 +16,7 @@ const EXPERIENCES = [
     title: "Creative Wellness",
     description:
       "Slow down through mindful creative sessions designed to restore focus, reduce stress and encourage self-expression.",
-    image: "/Creative Wellness.png",
+    image: "/hero-image.png",
     reverse: true,
   },
   {
