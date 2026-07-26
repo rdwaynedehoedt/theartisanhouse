@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export function ExperiencesIntro() {
   return (
-    <section className="bg-[#efece5] w-full pt-16 pb-32 lg:pt-24 lg:pb-48 relative z-10">
+    <section className="bg-[#efece5] w-full pt-16 pb-16 lg:pt-24 lg:pb-24 relative z-10">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 relative z-10 flex flex-col items-center text-center">
         
         {/* Image Section */}
@@ -14,7 +14,7 @@ export function ExperiencesIntro() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="w-full mb-12 lg:mb-16"
+          className="w-full"
         >
           <NextImage
             src="/Creative wellness in mindful collaboration.png"

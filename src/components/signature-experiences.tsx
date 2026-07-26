@@ -16,14 +16,14 @@ const EXPERIENCES = [
     title: "Creative Wellness",
     description:
       "Slow down through mindful creative sessions designed to restore focus, reduce stress and encourage self-expression.",
-    image: "/hero-image.png",
+    image: "/ChatGPT Image Jul 26, 2026, 05_15_50 PM.png",
     reverse: true,
   },
   {
     title: "Mindful Conversations",
     description:
       "Thoughtfully guided experiences that encourage authentic conversations, reflection and genuine human connection.",
-    image: "/hero-image.png",
+    image: "/ChatGPT Image Jul 26, 2026, 05_13_37 PM.png",
     reverse: false,
   },
   {
