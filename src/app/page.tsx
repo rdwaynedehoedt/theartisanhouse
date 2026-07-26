@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { ExperiencesIntro } from "@/components/experiences-intro";
+import { SignatureExperiences } from "@/components/signature-experiences";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       
       {/* Seamless transition into Experiences Intro */}
       <ExperiencesIntro />
+
+      {/* Signature Experiences Editorial Section */}
+      <SignatureExperiences />
     </main>
   );
 }

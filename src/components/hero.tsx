@@ -21,7 +21,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
-            className="font-serif text-[clamp(4rem,8vw,7.5rem)] text-foreground leading-[0.95] tracking-[-0.02em] mb-8 whitespace-normal"
+            className="font-serif text-[clamp(3.5rem,7vw,6.5rem)] text-foreground leading-[0.95] tracking-[-0.02em] mb-6 whitespace-normal"
           >
             Create.<br />
             <span className="italic text-terracotta pr-2">Connect.</span><br />
@@ -32,7 +32,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="text-base md:text-[17px] text-foreground/80 font-light max-w-[420px] leading-[1.8] mb-10"
+            className="text-base md:text-[17px] text-foreground/80 font-light max-w-[360px] leading-[1.7] mb-6"
           >
             Slow down, create something beautiful, and share meaningful moments through <span className="text-terracotta font-medium">thoughtfully curated experiences.</span>
           </motion.p>
@@ -72,9 +72,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
-          className="w-full lg:w-[52%] h-[40vh] min-h-[350px] lg:h-[85vh] flex items-end justify-center lg:justify-end relative z-10"
+          className="w-full lg:w-[52%] h-[40vh] min-h-[350px] lg:h-[85vh] flex items-end justify-center lg:justify-end relative z-10 lg:-ml-8"
         >
-          <div className="relative w-full max-w-[700px] h-full flex items-end justify-center lg:justify-end">
+          <div className="relative w-full max-w-[760px] h-full flex items-end justify-center lg:justify-end">
             <NextImage
               src="/hero-image.png"
               alt="The Artisan House Artwork"

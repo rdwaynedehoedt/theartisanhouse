@@ -28,8 +28,8 @@ const EXPERIENCES = [
 
 export function ExperiencesIntro() {
   return (
-    <section className="bg-[#efece5] w-full pt-16 pb-32 lg:pt-24 lg:pb-40 relative z-10">
-      <div className="max-w-[1200px] mx-auto px-6 md:px-10">
+    <section className="bg-[#efece5] w-full pt-16 pb-32 lg:pt-24 lg:pb-48 relative z-10">
+      <div className="max-w-[1200px] mx-auto px-6 md:px-10 relative z-10">
         
         {/* Header Section */}
         <div className="flex flex-col items-center text-center mb-24 lg:mb-32">
@@ -79,6 +79,9 @@ export function ExperiencesIntro() {
         </div>
 
       </div>
+
+      {/* Bottom Gradient Transition into next section (ivory background) */}
+      <div className="absolute bottom-0 left-0 w-full h-32 md:h-56 bg-gradient-to-b from-transparent to-background pointer-events-none z-0" />
     </section>
   );
 }
